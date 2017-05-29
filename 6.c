@@ -3,11 +3,11 @@
 #include<stdlib.h>
 void printchar(char str[])
 {
-	int i;
-	for(i=0;str[i]!=0;i++)
-	{
-		printf("%c",str[i]);
-	}
+	char *ptr;
+	int c;
+	setbuf(stdout,NULL);
+	for(ptr=str;(c=*ptr++)!=0;)
+		putc(c,stdout);
 }
 void main()
 {
