@@ -3,11 +3,11 @@
 ##### List of Experiments for USP: 
 Design, develop, and execute the following programs 
 
-1. [Write a C/C++ POSIX compliant program to check the following limits: 
+1. [Write a C/C++ POSIX compliant program to check the following limits:   
 (i)  No.  of  clock  ticks  
 (ii)  Max.  no.  of  child  processes  
 (iii)  Max.  path  length  
-(iv)  Max.  no.  of characters in a file name 
+(iv)  Max.  no.  of characters in a file name   
 (v) Max. no. of open files or process](https://github.com/vishnu-dev/USP-LAB/blob/master/1.c)  
 
 2. [Write a C/C++ POSIX compliant program that prints the POSIX defined configuration options 
@@ -20,7 +20,7 @@ not locked, lock the region with an exclusive lock, read the last 50 bytes and u
 4.  [Write  a  C/C++  program  which  demonstrates  interprocess  communication  between  a  reader 
 process and a writer process. Use mkfifo, open, read, write and close APIs in your program.](https://github.com/vishnu-dev/USP-LAB/blob/master/4.c)
 
-5. a) [Write a C/C++ program that outputs the contents of its Environment list](https://github.com/vishnu-dev/USP-LAB/blob/master/5a.c)
+5. a) [Write a C/C++ program that outputs the contents of its Environment list](https://github.com/vishnu-dev/USP-LAB/blob/master/5a.c)  
     b) [Write a C / C++ program to emulate the unix ln command](https://github.com/vishnu-dev/USP-LAB/blob/master/5b.c)
     
 6. [Write a C/C++ program to illustrate the race condition.](https://github.com/vishnu-dev/USP-LAB/blob/master/6.c)
@@ -42,7 +42,7 @@ programs.
 12.  [Write a yacc program that accepts a regular expression as input and produce its parse tree as output.](https://github.com/vishnu-dev/USP-LAB/blob/master/12.y)
 
 
-### Compilation
+### *Compilation*
 
 #### C program
 cc program_name.c
@@ -51,5 +51,5 @@ cc program_name.c
 yacc -d program_name.c
 cc y.tab.c
 
-### Excecution
+### *Excecution*
 ./a.out arguments...
