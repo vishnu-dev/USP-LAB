@@ -48,7 +48,7 @@ programs.
 cc program_name.c
 
 #### Yacc program
-yacc -d program_name.c
+yacc -d program_name.c                  
 cc y.tab.c
 
 ### *Excecution*
